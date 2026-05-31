@@ -1,0 +1,12 @@
+name = "nagare-backend"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nagare"
+database_id = "fce8704a-fd24-4888-9187-6a615c909d4a" 
+
+[[kv_namespaces]]
+binding = "KV_BINDING"
+id = "823c245499ab4971a49f091588ce1a8f"
