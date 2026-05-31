@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@cloudflare/workers-types": "^4.20260531.1",
+    "bcryptjs": "^3.0.3",
     "hono": "^4.12.23",
     "uuid": "^14.0.0"
   },
