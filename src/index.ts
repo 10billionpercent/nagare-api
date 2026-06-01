@@ -60,7 +60,7 @@ const app = new Hono<Env>();
 app.use(
   "/*",
   cors({
-    origin: ["http://localhost:5173", "https://your-frontend.pages.dev"],
+    origin: ["http://localhost:5173", "https://nagare-kanban.pages.dev"],
     credentials: true,
   }),
 );
