@@ -56,7 +56,6 @@ type Env = { Bindings: Bindings; Variables: Variables };
 
 const app = new Hono<Env>();
 
-// ---------- CORS ----------
 app.use(
   "/*",
   cors({
